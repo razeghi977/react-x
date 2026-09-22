@@ -1,4 +1,4 @@
-import Header from "../header/header";
+import Header from "../../Header/Header"
 import Slider from "../Slider/slider";
 import Products from "../Products/products";
 import Footer from "../Footer/Footer";
