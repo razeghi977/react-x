@@ -1,3 +1,4 @@
 @import "tailwindcss";
-@import "../src/components/Slider/Slider.css"
 @plugin "daisyui";
+@import "../src/components/Slider/Slider.css"
+
