@@ -1,14 +1,15 @@
-import Header from "../../Header/Header"
 import Slider from "../Slider/slider";
 import Products from "../Products/products";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
+import MegaMenu from "../MegaMenu/MegaMenu";
+
 import "../../main.css"
 
 
 const app = () => {
     return  (  
     <div>
-        <Header/>
+        <MegaMenu/>
         <Slider/>
         <Products/>
         <Footer/>   

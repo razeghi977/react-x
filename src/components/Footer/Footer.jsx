@@ -1,5 +1,5 @@
 const footer = () => {
-    return ( <div>
+    return ( 
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
   <nav>
     <h6 className="footer-title">Services</h6>
@@ -22,7 +22,7 @@ const footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </nav>
 </footer>
-    </div> );
+     );
 }
  
 export default footer;

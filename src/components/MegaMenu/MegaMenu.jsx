@@ -1,7 +1,6 @@
-const header = () => {
-    return ( 
-        <div>
-            <button className="btn sm:hidden" popoverTarget="my-megamenu-3">Menu</button>
+const MegaMenu = () => {
+    return ( <div>
+        <button className="btn sm:hidden" popoverTarget="my-megamenu-3">Menu</button>
 <div className="megamenu max-sm:megamenu-vertical megamenu-wide p-2 border border-base-300" id="my-megamenu-3" popover="auto">
   <span className="megamenu-active"></span>
 
@@ -113,8 +112,7 @@ const header = () => {
     </div>
   </div>
 </div>
-        </div>
-     );
+    </div> );
 }
  
-export default header;
+export default MegaMenu;
